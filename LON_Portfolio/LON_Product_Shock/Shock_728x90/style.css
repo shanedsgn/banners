@@ -1,0 +1,258 @@
+html{-webkit-font-smoothing: antialiased;}
+body{
+	margin: 0px;
+	letter-spacing:1.1px;
+}
+
+#ad{
+    display: block;
+    border: rgb(204, 204, 204) 1px solid;
+ /* */ overflow: hidden;
+    width: 726px;
+    height: 88px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	/* background-image: url('frame_2.jpg');*/
+}
+
+#banner{
+    position: absolute;
+    display: block;
+    width: 726px;
+    height: 88px;
+   /**/overflow: hidden;
+	opacity:0;
+	background-color:#0033A0; 
+}
+
+#overButton{
+ 	position: absolute;
+    display: block;
+    width: 728px;
+    height: 90px;
+	top: 0px;
+    left: 0px;
+    cursor: pointer;
+}
+
+#frame_1{
+	position:absolute;
+	width:728px;
+	height:90px;
+	background-color:#0033A0;
+}
+
+#frame1_swimmer{
+	position: absolute;
+	background-image: url('swimmer.jpg');
+	width: 1032px;
+	height: 194px;
+	top: -60px;
+	left: -155px;
+	background-repeat: no-repeat;
+	transform: scale(0.8);
+}
+
+#frame1_text1{
+	position: absolute;
+	background-image: url('text1a.svg');
+	width: 258px;
+	height: 27px;
+	top:6px;
+	left: 390px;
+	background-repeat: no-repeat;
+}
+
+#frame1_text2{
+	position: absolute;
+	background-image: url('text1b.svg');
+	width: 237px;
+	height: 73px;
+	top: 22px;
+	left: 395px;
+	background-repeat: no-repeat;
+}
+
+#frame_2{
+	position:absolute;
+	width:728px;
+	height:90px;
+}
+
+#frame2_gradient{
+	position: absolute;
+	background-image: url('gradient.jpg');
+	width: 728px;
+	height: 90px;
+	top: 0;
+	left: 0;
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+#frame_3{
+	position:absolute;
+	width:728px;
+	height:90px;
+}
+
+#frame3_bubbles1{
+	position: absolute;
+	width: 728px;
+	height: 90px;
+	background-image: url('bubbles_1.png');
+	background-repeat: no-repeat;
+	transform: scale(0);
+}
+
+#frame3_bubbles2{
+	position: absolute;
+	width: 728px;
+	height: 90px;
+	background-image: url('bubbles_2.png');
+	background-repeat: no-repeat;
+	transform: scale(0);
+}
+
+#frame3_bubbles3{
+	position: absolute;
+	width: 728px;
+	height: 90px;
+	background-image: url('bubbles_3.png');
+	background-repeat: no-repeat;
+	transform: scale(0);
+}
+
+#frame3_logoh1{
+	position: absolute;
+	top: 20px;
+	left: 327px;
+	width: 32px;
+	height: 48px;
+	background-image: url('logo_h1.svg');
+	background-repeat: no-repeat;
+	transform: scale(0);
+	opacity: 0;
+}
+
+#frame3_logot{
+	position: absolute;
+	top: 18px;
+	left: 352px;
+	width: 33px;
+	height: 44px;
+	background-image: url('logo_t.svg');
+	background-repeat: no-repeat;
+	transform: scale(0);
+	opacity: 0;
+}
+
+#frame3_logoh2{
+	position: absolute;
+	top: 10px;
+	left: 383px;
+	width: 36px;
+	height: 48px;
+	background-image: url('logo_h2.svg');
+	background-repeat: no-repeat;
+	transform: scale(0);
+	opacity: 0;
+}
+
+#frame3_here2help{
+	position: absolute;
+	top: -10px;
+	left: 330px;
+	width: 85px;
+	height: 24px;
+	background-image: url('here2help.svg');
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+#frame3_here2helpglow{
+	position: absolute;
+	top: 51px;
+	left: 324px;
+	width: 95px;
+	height: 34px;
+	background-image: url('here2help_glow.png');
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+#frame_4{
+	position:absolute;
+	width:728px;
+	height:90px;
+}
+
+#frame4_text2a{
+	position: absolute;
+	top: 32px;
+	left: 147px;
+	width: 116px;
+	height: 26px;
+	background-image: url('text2a.svg');
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+#frame4_text2b{
+	position: absolute;
+	top: 50px;
+	left: 146px;
+	width: 83px;
+	height: 22px;
+	background-image: url('text2b.svg');
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+#frame4_text2c{
+	position: absolute;
+	top: 58px;
+	left: 147px;
+	width: 115px;
+	height: 27px;
+	background-image: url('text2c.svg');
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+#frame4_text2d{
+	position: absolute;
+	top: 70px;
+	left: 146px;
+	width: 124px;
+	height: 28px;
+	background-image: url('text2d.svg');
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+#frame_5{
+	position:absolute;
+	width:728px;
+	height:90px;
+}
+
+#frame5_product{
+	position: absolute;
+	top: -18px;
+	left: 408px;
+}
+
+#frame5_cta{
+	position: absolute;
+	top: 26px;
+	left: 530px;
+	width: 83px;
+	height: 38px;
+	background-image: url('cta.png');
+	background-repeat: no-repeat;
+}
+
