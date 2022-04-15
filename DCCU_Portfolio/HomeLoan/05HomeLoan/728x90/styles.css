@@ -1,0 +1,186 @@
+body {
+    margin: 0px;
+}
+
+/* ~ OVERALL BANNER SPECS ~ */
+
+#ad{
+    display: block;
+    border: rgb(145, 153, 153) 1px solid;
+    overflow: hidden;
+    width: 728px;
+    height: 90px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-sizing:border-box;
+}
+
+/* Sizmek */
+
+#banner{
+    position: relative;
+    display: block;
+    width: 728px;
+    height: 90px;
+    cursor: pointer;
+    background-color: #FFF;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* ~ LAYER PROPERTIES ~ */
+
+#ref{
+    background:url(backup.jpg) center no-repeat;
+    width: 728px;
+    height: 90px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#hero{
+    background:url(hero.jpg) center no-repeat;
+    width: 390px;
+    height: 180px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    z-index: 1;
+    transform: scale(0);
+    transform-origin: 0% 0%;
+}
+
+#logo{
+    background: url(logo.png) center no-repeat;
+    width: 1456px;
+    height: 180px;
+    position: absolute;
+    top: 0px; /*172px;*/
+    left: 0px;
+    opacity: 1;
+    z-index: 6;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
+
+#disclaimer{
+    background:url(disclaimer.png) center no-repeat;
+    width: 1456px;
+    height: 180px;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    opacity: 0;
+    z-index: 8;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
+
+#cta{
+    background:url(cta.png) center no-repeat;
+    width: 1456px;
+    height: 180px;
+    position: absolute;
+    top: 100px;
+    left: 0px; 
+    opacity: 0;
+    z-index: 8;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
+
+#txt1_a{
+    background:url(txt1_a.png) center no-repeat;
+    width: 1456px;
+    height: 180px;
+    position: absolute;
+    top: 0px;
+    left: -100px;
+    opacity: 0;
+    z-index: 1;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
+
+#txt1_b{
+    background:url(txt1_b.png) center no-repeat;
+    width: 1456px;
+    height: 180px;
+    position: absolute;
+    top: 0px;
+    left: -100px;
+    opacity: 0;
+    z-index: 1;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
+
+#txt2{
+    background:url(txt2.png) center no-repeat;
+    width: 1456px;
+    height: 180px;
+    position: absolute;
+    top: 0px;
+    left: -200px;
+    opacity: 0;
+    z-index: 1;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
+
+#bubbles{
+    background: none;
+    width: 728px;
+    height: 90px;
+    position: absolute;
+    top: -3px;
+    left: -18px; 
+    opacity: 1;
+    z-index: 2;
+}
+
+#bubble1_a{
+    background:url(bubble1_a.svg) center no-repeat;
+    width: 6px;
+    height: 5px;
+    position: absolute;
+    top: 18px;
+    left: 84px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+}
+
+#bubble1_b{
+    background:url(bubble1_b.svg) center no-repeat;
+    width: 11px;
+    height: 8px;
+    position: absolute;
+    top: 11px;
+    left: 90px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+}
+
+#bubble1_c{
+    background:url(bubble1_c.svg) center no-repeat;
+    width: 65px;
+    height: 53px;
+    position: absolute;
+    top: 13px;
+    left: 82px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+}
+
+    
