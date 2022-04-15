@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="ad.size" content="width=728,height=90"/>.
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>  
+
+    <script type="text/javascript">      
+    function getParameterByName(name) {  name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]"); var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"), results = regex.exec(location.search); return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));} var clickTag = getParameterByName("clickTag");        
+    //At this point, the value for the clickthrough URL is stored in the variable "window.clickTAG"        //clickTAGs are case-sensitive, so make sure TAG/Tag/tag is uniform throughout the creative and any supporting files    
+    </script>  
+</head>
+<body>
+    	<a href="javascript:window.open(window.clickTag);void(0);">   
+        	<div id="container">
+                <!-- START Car -->
+
+                    <!-- START Car (Wrapper 1) -->
+                    <div id="car01_wrapper">
+                        <div id="car_01a"></div>
+                        <div id="car_01b"></div>
+                    </div>
+                    <!-- END Car (Wrapper 1) -->
+
+                    <!-- START Car (Wrapper 2) -->
+                    <div id="car02_wrapper">
+                        <div id="car_02a"></div>
+                        <div id="car_02b"></div>
+                        <div id="spray_wrapper">
+                            <img class="character1" src="tl_waterspray.png" >
+                        </div>
+
+                        <div id="surprise_wrapper">
+                            <div id="surprise"></div>
+                        </div>
+                        <div id="txt1_a"></div>
+                        <div id="dust"></div>
+                    </div>
+                    <!-- END Car (Wrapper 2) -->
+
+                    <div id="txt1_b"></div>
+
+                    <div id="txt2_copy">
+                        <div class="two_txt" id="txt2a"></div>
+                        <div class="two_txt" id="txt2b"></div>
+                        <div class="two_txt" id="txt2c"></div>
+                    </div>
+
+                    <div id="starburst1"></div>
+                    <div id="starburst2"></div>
+
+                <!-- END Car -->
+
+                <!-- End Frame -->
+                <div id="arm_wrapper">
+                    <img class="character4" src="tl_arm.png" >
+                </div>
+
+                <div id="product_img">
+                    <div class="product-img" id="prd_1"></div>
+                    <div class="product-img" id="prd_2"></div>
+                </div>
+
+                <div id="cta"></div>
+                <div id="logo"></div>
+                <div id="tagline"></div>
+                <div id="darkred_bckg"></div>
+
+                <!-- <div id="ref"></div> -->
+            </div>
+        </a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="animation.js"></script>
+</body>
+</html>
