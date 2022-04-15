@@ -1,0 +1,495 @@
+html{-webkit-font-smoothing: antialiased;}
+body{
+	margin: 0px;
+	letter-spacing:1.1px;
+}
+
+#ad{
+    display: block;
+    border: rgb(204, 204, 204) 1px solid;
+ /* */ overflow: hidden;
+    width: 318px;
+    height: 48px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	/* background-image: url('frame_2.jpg');*/
+}
+
+#banner{
+    position: absolute;
+    display: block;
+    width: 318px;
+    height: 48px;
+   /**/overflow: hidden;
+	opacity:0;
+	background-color:#ffffff; 
+}
+
+//#wrapper{
+	position:absolute;
+	width:320px;
+	height:50px;
+	background-repeat: no-repeat;
+	background-image: url('backup.jpg');
+	opacity: 0.5;
+}
+
+#overButton{
+ 	position: absolute;
+    display: block;
+    width: 320px;
+    height: 50px;
+	top: 0px;
+    left: 0px;
+    cursor: pointer;
+}
+
+#fgrd1{
+	position:absolute;
+	width:320px;
+	height:50px;
+}
+
+#fgrd1_back{
+	position:absolute;
+	width:320px;
+	height:50px;
+	background-color:#f7444d;
+	background-repeat: no-repeat;
+}
+
+#fgrd1_box{
+	background-color: #be1d29;
+ 	margin-top: -132px;
+ 	box-shadow: 0px 2px 2px rgba(0, 0, 0, .5);
+  	padding: 35% 20px;  /*Added a percentage value for top/bottom padding to keep the wrapper inside of the parent*/ 
+  
+	-webkit-transform: skewY(-30deg);
+	-moz-transform: skewY(-30deg);
+	-ms-transform: skewY(-30deg);
+	-o-transform: skewY(-30deg);
+	transform: skewY(-30deg);
+}
+
+#fgrd2{
+	position:absolute;
+	width:320px;
+	height:50px;
+}
+
+#fgrd2_back{
+	position:absolute;
+	width:320px;
+	height:50px;
+	background-color:#c6e95f;
+	/*background-image: url('ref.jpg');*/
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+#fgrd2_box{
+	background-color: #799231;
+ 	margin-top: -132px;
+ 	box-shadow: 0px 2px 2px rgba(0, 0, 0, .5);
+  	padding: 35% 20px;  /*Added a percentage value for top/bottom padding to keep the wrapper inside of the parent*/ 
+  
+	-webkit-transform: skewY(-30deg);
+	-moz-transform: skewY(-30deg);
+	-ms-transform: skewY(-30deg);
+	-o-transform: skewY(-30deg);
+	transform: skewY(-30deg);
+}
+
+#fgrd3{
+	position:absolute;
+	width:320px;
+	height:50px;
+}
+
+#fgrd3_back{
+	position:absolute;
+	width:320px;
+	height:50px;
+	background-color:#3ad0f4;
+	/*background-image: url('ref.jpg');*/
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+#fgrd3_box{
+	background-color: #2199d0;
+ 	margin-top: -132px;
+ 	box-shadow: 0px 2px 2px rgba(0, 0, 0, .5);
+  	padding: 35% 20px;  /*Added a percentage value for top/bottom padding to keep the wrapper inside of the parent*/ 
+  
+	-webkit-transform: skewY(-30deg);
+	-moz-transform: skewY(-30deg);
+	-ms-transform: skewY(-30deg);
+	-o-transform: skewY(-30deg);
+	transform: skewY(-30deg);
+}
+
+#frame_1{
+	position:absolute;
+	width:320px;
+	height:50px;
+}
+
+#frame1_animate{
+	position:absolute;
+	width:320px;
+	height:50px;
+}
+
+#frame1_fridge{
+	position: absolute;
+	top: 0px;
+	left: 240px;
+	width: 34px;
+	height: 56px;
+	background-image: url('fridge_illu.png');
+	background-repeat: no-repeat;
+}
+
+#frame1_fridgeshadow{
+	position: absolute;
+	top: 10px;
+	left: 226px;
+	width: 45px;
+	height: 45px;
+	background-image: url('fridge_shadow.png');
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+#frame1_smoke{
+	position: absolute;
+	top: -15px;
+	left: 212px;
+  	width: 74px;  
+  	height: 88px;  
+  	overflow:hidden;
+  	opacity:0;
+}
+
+#frame1_text{
+	position: absolute;
+	width: 320px;
+	height: 50px;
+}
+
+#frame1_text1a{
+	position: absolute;
+	top: 10px;
+	left: 27px;
+	width: 104px;
+	height: 15px;
+	background-repeat: no-repeat;
+	background-image: url('text1a.svg');
+}
+
+#frame1_text1b{
+	position: absolute;
+	top: 27px;
+	left: 27px;
+	width: 126px;
+	height: 12px;
+	background-repeat: no-repeat;
+	background-image: url('text1b.svg');
+}
+
+#frame_2{
+	position:absolute;
+	width:320px;
+	height:50px;
+}
+
+#frame2_animate{
+	position:absolute;
+	width:320px;
+	height:50px;
+}
+
+#frame2_bulb{
+	position: absolute;
+	top: 9px;
+	left: 252px;
+	width: 26px;
+	height: 39px;
+	background-image: url('bulb_illu.png');
+	background-repeat: no-repeat;
+}
+
+#frame2_bulbshadow{
+	position: absolute;
+	top: 22px;
+	left: 233px;
+	width: 69px;
+	height: 34px;
+	background-image: url('bulb_shadow.png');
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+#frame2_bulbglow{
+	position: absolute;
+	top: -42px;
+	left: 204px;
+  	width: 128px;  
+  	height: 129px;  
+  	overflow:hidden;
+  	opacity:1;
+}
+
+#frame2_text{
+	position: absolute;
+	width: 320px;
+	height: 50px;
+}
+
+#frame2_text2a{
+	position: absolute;
+	top: 10px;
+	left: 27px;
+	width: 146px;
+	height: 15px;
+	background-repeat: no-repeat;
+	background-image: url('text2a.svg');
+}
+
+#frame2_text2b{
+	position: absolute;
+	top: 27px;
+	left: 27px;
+	width: 126px;
+	height: 12px;
+	background-repeat: no-repeat;
+	background-image: url('text1b.svg');
+}
+
+#frame_3{
+	position:absolute;
+	width:320px;
+	height:50px;
+}
+
+#frame3_animate{
+	position:absolute;
+	width:320px;
+	height:50px;
+}
+
+#frame3_furnace{
+	position: absolute;
+	top: 6px;
+	left: 245px;
+	width: 29px;
+	height: 47px;
+	background-image: url('furnace_illu.png');
+	background-repeat: no-repeat;
+}
+
+#frame3_furnaceshadow{
+	position: absolute;
+	top: 23px;
+	left: 524px;
+	width: 39px;
+	height: 45px;
+	background-image: url('furnace_shadow.png');
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+#frame3_dollars{
+	position:absolute;
+	width:320px;
+	height:50px;
+	/*opacity: 0;*/
+}
+
+#frame3_dollar1{
+	position: absolute;
+	top: 5px;
+	left: 250px;
+	width: 7px;
+	height: 13px;
+	background-image: url('dollar.png');
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+#frame3_dollar2{
+	position: absolute;
+	top: 5px;
+	left: 260px;
+	width: 7px;
+	height: 13px;
+	background-image: url('dollar.png');
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+#frame3_dollar3{
+	position: absolute;
+	top: 5px;
+	left: 255px;
+	width: 7px;
+	height: 13px;
+	background-image: url('dollar.png');
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+#frame3_text{
+	position: absolute;
+	width: 320px;
+	height: 50px;
+}
+
+#frame3_text3a{
+	position: absolute;
+	top: 11px;
+	left: 27px;
+	width: 181px;
+	height: 14px;
+	background-repeat: no-repeat;
+	background-image: url('text3a.svg');
+}
+
+#frame3_text3b{
+	position: absolute;
+	top: 27px;
+	left: 27px;
+	width: 184px;
+	height: 14px;
+	background-image: url('text3b.svg');
+	background-repeat: no-repeat;
+}
+
+#frame_4{
+	position:absolute;
+	width:320px;
+	height:50px;
+}
+
+#frame4_animate{
+	position:absolute;
+	width:320px;
+	height:50px;
+}
+
+#frame4_hp{
+	position: absolute;
+	top: 10px;
+	left: 255px;
+	width: 30px;
+	height: 38px;
+	background-image: url('hp_illu.png');
+	background-repeat: no-repeat;
+}
+
+#frame4_hpshadow{
+	position: absolute;
+	top: 12px;
+	left: 246px;
+	width: 57px;
+	height: 37px;
+	background-image: url('hp_shadow.png');
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+#frame4_star1{
+	position: absolute;
+	top: -3px;
+	left: 277px;
+}
+
+#frame4_star2{
+	position: absolute;
+	top: 2px;
+	left: 263px;
+}
+
+#frame4_star3{
+	position: absolute;
+	top: 7px;
+	left: 253px;
+}
+
+#frame4_money{
+	position: absolute;
+	top: 11px;
+	left: 258px;
+	width: 25px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-image: url('money.png');
+}
+
+#frame4_text4a{
+	position: absolute;
+	top: 4px;
+	left: 14px;
+	width: 149px;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-image: url('text4a.svg');
+}
+
+#frame4_text4b{
+	position: absolute;
+	top: 15px;
+	left: 88px;
+	width: 81px;
+	height: 12px;
+	background-image: url('text4b.svg');
+	background-repeat: no-repeat;
+}
+
+#frame4_text4bglow{
+	position: absolute;
+	top: -6px;
+	left: -7px;
+	width: 92px;
+	height: 23px;
+	background-image: url('text4b_glow.png');
+	background-repeat: no-repeat;
+	opacity: 0;
+}
+
+#frame4_cta{
+	position: absolute;
+	top: 31px;
+	left: 14px;
+	width: 62px;
+	height: 15px;
+	background-image: url('cta.svg');
+	background-repeat: no-repeat;
+	opacity: 0;
+	transform: scale(0);
+}
+
+#frame4_divider{
+	position: absolute;
+	top: 2px;
+	left: 182px;
+	width: 1px;
+	height: 1px;
+	background-color: white;
+	opacity: 0;
+}
+
+#frame4_logo{
+	position: absolute;
+	top: 4px;
+	left: 196px;
+	width: 36px;
+	height: 41px;
+	background-image: url('logo.svg');
+	background-repeat: no-repeat;
+	opacity: 0;
+}
