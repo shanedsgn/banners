@@ -1,0 +1,279 @@
+body {
+    margin: 0px;
+}
+
+/* ~ OVERALL BANNER SPECS ~ */
+
+#container{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:728px;
+    height:90px;
+    border:1px solid black;
+    background-color: #c8102e;
+    box-sizing: border-box;
+    overflow:hidden;
+    opacity:1;
+    z-index:1;
+}
+
+/* ~ LAYER PROPERTIES ~ */
+
+#ref{
+    background:url(ref.jpg) center no-repeat;
+    width: 728px;
+    height: 90px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+/* ~ FAUCET ~ */
+#faucet_wrapper{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 728px;  
+    height: 90px;  
+    overflow:hidden;
+    opacity:1;
+    transform: scale(0);
+    transform-origin: 15% 50%;
+}
+
+#txt1{
+    background:url(txt1.png) center no-repeat;
+    width: 728px;
+    height: 90px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 35% 50%;
+}
+
+/* ~ BIRDHOUSE ~ */
+
+#bh_wrapper{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 728px;  
+    height: 90px;  
+    overflow:hidden;
+    opacity:1;
+    transform: scale(1);
+    transform-origin: 15% 50%;
+}
+
+#bh_bottom{
+    background:url(bh_bottom.png) center no-repeat;
+    width: 63px;
+    height: 31px;
+    position: absolute;
+    top: 700px;
+    left: 108px;
+    opacity:1;
+    z-index: 2;
+}
+
+#bh_left_roof{
+    background:url(bh_left_roof.png) center no-repeat;
+    width: 53px;
+    height: 51px;
+    position: absolute;
+    top: -800px;
+    left: 100px;
+    opacity:1;
+    z-index: 2;
+}
+
+#bh_side{
+    background:url(bh_side.png) center no-repeat;
+    width: 37px;
+    height: 56px;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    opacity:0;
+    z-index: 2;
+}
+
+#bh_front{
+    background:url(bh_front.png) center no-repeat;
+    width: 42px;
+    height: 79px;
+    position: absolute;
+    top: 42px;
+    left: -400px;
+    opacity:1;
+    z-index: 2;
+}
+
+
+#bh_right_roof{
+    background:url(bh_right_roof.png) center no-repeat;
+    width: 58px;
+    height: 57px;
+    position: absolute;
+    top: -600px;
+    left: 123px;
+    opacity:1;
+    z-index: 2;
+}
+
+#txt2{
+    background:url(txt2.png) center no-repeat;
+    width: 728px;
+    height: 90px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 35% 50%;
+}
+
+/* ~ GNOME ~ */
+
+#gnome_wrapper{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 728px;  
+    height: 90px;  
+    overflow:hidden;
+    opacity:1;
+    transform: scale(0);
+    transform-origin: 15% 50%;
+}
+
+#starburst{
+    background:url(starburst.svg) center no-repeat;
+    width: 78px;
+    height: 76px;
+    position: absolute;
+    top: -10px;
+    left: 60px;
+    opacity: 0;
+    z-index: 2;
+    transform: scale(0);
+}
+
+#txt3a{
+    background:url(txt3a.png) center no-repeat;
+    width: 728px;
+    height: 90px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 35% 50%;
+}
+
+#txt3b{
+    background:url(txt3b.png) center no-repeat;
+    width: 728px;
+    height: 90px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 35% 50%;
+}
+
+/* ~ END FRAME ~ */
+
+#arm_wrapper{
+    position: absolute;
+    top: 0px;
+    left: -300px;
+    width: 728px;  
+    height: 90px;  
+    overflow:hidden;
+    opacity:0;
+}
+
+#prd_1{
+    background:url(prd_1.png) center no-repeat;
+    width: 728px;
+    height: 109px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    opacity: 0;
+    z-index: 2;
+}
+
+#prd_2{
+    background:url(prd_2.png) center no-repeat;
+    width: 728px;
+    height: 109px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    opacity: 0;
+    z-index: 2;
+}
+
+#logo{
+    background:url(logo.svg) center no-repeat;
+    width: 123px;
+    height: 90px;
+    position: absolute;
+    top: 0px;
+    left: 550px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(1);
+}
+
+#tagline{
+    background:url(tagline.png) center no-repeat;
+    width: 1456px;
+    height: 180px;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    opacity: 0;
+    z-index: 2;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
+
+#cta{
+    background:url(cta.png) center no-repeat;
+    width: 728px;
+    height: 90px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    z-index: 3;
+    transform: scale(0);
+    transform-origin: 90% 50%;
+}
+
+#darkred_bckg{
+    background-color: #b42232;
+    position: absolute;
+    top: 0px;
+    left: 492px;
+    width: 507px;  
+    height: 90px;  
+    overflow:hidden;
+    opacity:1;
+}
+
+
+
