@@ -1,0 +1,229 @@
+body{
+  margin:0;
+}
+
+#end{
+  visibility:hidden;
+}
+
+/* ~ OVERALL BANNER SPECS ~ */
+
+#ad{
+    display: block;
+    border: rgb(145, 153, 153) 1px solid;
+    overflow: hidden;
+    width: 300px;
+    height: 250px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Sizmek */
+#ad_click{
+    width: 300px;
+    height: 250px;
+    cursor: pointer;
+}
+
+#banner{
+    position: relative;
+    display: block;
+    width: 300px;
+    height: 250px;
+    background-color: #FFF;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#bg{
+	position: absolute;
+    display: block;
+    width: 300px;
+    height: 250px;
+    background-color: #02aeed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 2;
+}
+
+/* ~ LAYER PROPERTIES ~ */
+
+svg{
+  display:block;
+  position:absolute;
+  width:85px;
+  height:85px;
+  top:77px;
+  left:209px;
+  z-index:4;
+}
+
+#svgcontainer{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    opacity: 0;
+}
+
+#text1a{
+    background:url(../img/text1a.png) center no-repeat;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    opacity: 0;
+}
+
+#text1b{
+    background:url(../img/text1b.png) center no-repeat;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    opacity: 0;
+}
+
+#text1c{
+    background:url(../img/text1c.png) center no-repeat;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    opacity: 0;
+}
+
+
+#shadow{
+	background:url(../img/shadow.png) center no-repeat;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    opacity: 0;
+}
+
+#bg2{
+	width:300px;
+	height:250px;
+	background-color: #ffd566;
+	position:absolute;
+	z-index:3;
+	display: inline-block;
+	left:0;
+	top:-250px;
+}
+
+#text2a{
+	background:url(../img/text2a.png) center no-repeat;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    opacity: 0;
+}
+
+#text2b{
+    background:url(../img/text2b.png) center no-repeat;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    opacity: 0;
+}
+
+#text2c{
+    background:url(../img/text2c.png) center no-repeat;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    opacity: 0;
+}
+
+#bg3{
+	width:300px;
+	height:250px;
+	background-color: white;
+	position:absolute;
+	z-index:4;
+	display: inline-block;
+	left:0;
+	top:-250px;
+}
+
+#text3a{
+	background:url(../img/text3a.png) center no-repeat;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+     opacity: 0;
+}
+
+#text3b{
+    background:url(../img/text3b.png) center no-repeat;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+     opacity: 0;
+}
+
+#text3c{
+    background:url(../img/text3c.png) center no-repeat;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+     opacity: 0;
+}
+
+#cta{
+	background:url(../img/cta.png) center no-repeat;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: -200px;
+    z-index: 4;
+     opacity: 0;
+}
+
+#logo{
+	background:url(../img/logo.png) center no-repeat;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    z-index: 4;
+     opacity: 0;
+}
+
+
