@@ -1,0 +1,276 @@
+body {
+    margin: 0px;
+}
+
+/* ~ OVERALL BANNER SPECS ~ */
+
+#ad{
+    display: block;
+    border: rgb(145, 153, 153) 1px solid;
+    overflow: hidden;
+    width: 320px;
+    height: 480px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-sizing:border-box;
+}
+
+/* Sizmek */
+
+#banner{
+    position: relative;
+    display: block;
+    width: 320px;
+    height: 480px;
+    cursor: pointer;
+    background-color: #96d7ff;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* ~ LAYER PROPERTIES ~ */
+
+//#ref{
+    background:url(../images/ref.jpg) center no-repeat;
+    width: 320px;
+    height: 480px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+#top_milestone{
+    background: url(../images/top_milestone.png) center no-repeat;
+    width: 640px;
+    height: 393px;
+    position: absolute;
+    top: -200px;
+    left: 0px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
+
+#hero_nosilo{
+    background: url(../images/hero_nosilo.jpg) center no-repeat;
+    width: 320px;
+    height: 480px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    z-index: 1;
+}
+
+#hero_silo{
+    background: url(../images/hero_silo.png) center no-repeat;
+    width: 320px;
+    height: 480px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    z-index: 2;
+}
+
+#gl_logo{
+    background:url(../images/gl_logo.png) center no-repeat;
+    width: 209px;
+    height: 31px;
+    position: absolute;
+    top: 34px;
+    left: -25px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#lu_logo{
+    background:url(../images/lu_logo.png) center no-repeat;
+    width: 193px;
+    height: 180px;
+    position: absolute;
+    top: 22px;
+    left: -18px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt1_a{
+    background:url(../images/txt1_a.png) center no-repeat;
+    width: 201px;
+    height: 34px;
+    position: absolute;
+    top: 33px;
+    left: 99px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt1_b{
+    background:url(../images/txt1_b.png) center no-repeat;
+    width: 259px;
+    height: 34px;
+    position: absolute;
+    top: 52px;
+    left: 85px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt1_c{
+    background:url(../images/txt1_c.png) center no-repeat;
+    width: 291px;
+    height: 26px;
+    position: absolute;
+    top: 73px;
+    left: 77px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt2_a{
+    background:url(../images/txt2_a.png) center no-repeat;
+    width: 143px;
+    height: 26px;
+    position: absolute;
+    top: 33px;
+    left: 115px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt2_b{
+    background:url(../images/txt2_b.png) center no-repeat;
+    width: 163px;
+    height: 26px;
+    position: absolute;
+    top: 51px;
+    left: 109px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt2_c{
+    background:url(../images/txt2_c.png) center no-repeat;
+    width: 222px;
+    height: 33px;
+    position: absolute;
+    top: 68px;
+    left: 95px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#cta{
+    background: url(../images/cta.png) center no-repeat;
+    width: 304px;
+    height: 56px;
+    position: absolute;
+    top: 104px;
+    left: 350px;
+    opacity: 1;
+    z-index: 3;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
+
+#gameui1_a{
+    background:url(../images/gameui1_a.png) center no-repeat;
+    width: 147px;
+    height: 54px;
+    position: absolute;
+    top: 210px;
+    left: -6px;
+    opacity: 1;
+    z-index: 3;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#gameui1_b{
+    background:url(../images/gameui1_b.png) center no-repeat;
+    width: 147px;
+    height: 54px;
+    position: absolute;
+    top: 266px;
+    left: 187px;
+    opacity: 1;
+    z-index: 3;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#gameui1_c{
+    background:url(../images/gameui1_c.png) center no-repeat;
+    width: 147px;
+    height: 54px;
+    position: absolute;
+    top: 358px;
+    left: 104px;
+    opacity: 1;
+    z-index: 3;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#coin1{
+    background: url(../images/coin1.png) center no-repeat;
+    width: 111px;
+    height: 106px;
+    position: absolute;
+    top: -150px;
+    left: 250px;
+    opacity: 1;
+    z-index: 3;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#coin2{
+    background: url(../images/coin2.png) center no-repeat;
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    top: -150px;
+    left: -50px;
+    opacity: 1;
+    z-index: 3;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#coin3{
+    background: url(../images/coin3.png) center no-repeat;
+    width: 64px;
+    height: 48px;
+    position: absolute;
+    top: -150px;
+    left: 265px;
+    opacity: 1;
+    z-index: 3;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
