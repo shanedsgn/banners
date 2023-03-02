@@ -1,0 +1,251 @@
+body {
+    margin: 0px;
+}
+
+/* ~ OVERALL BANNER SPECS ~ */
+
+#ad{
+    display: block;
+    border: rgb(145, 153, 153) 1px solid;
+    overflow: hidden;
+    width: 1024px;
+    height: 768px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-sizing:border-box;
+}
+
+/* BANNER PROPERTIES */
+
+#banner{
+    position: relative;
+    display: block;
+    width: 1024px;
+    height: 768px;
+    cursor: pointer;
+    background-color: #96d7ff;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* ~ LAYER PROPERTIES ~ */
+
+//#ref{
+    background:url(../images/ref.jpg) center no-repeat;
+    width: 1024px;
+    height: 768px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+#ground{
+    background-color: #00c9a7;
+    width: 1024px;
+    height: 168px;
+    position: absolute;
+    top: 1000px;
+    left: 0px; 
+    opacity: 1;
+    z-index: 2;
+}
+
+#phone{
+    background: url(../images/phone.png) center no-repeat;
+    width: 507px;
+    height: 869px;
+    position: absolute;
+    top: 800px;
+    left: 430px;
+    opacity: 1;
+    z-index: 2;
+}
+
+#phone_screen1{
+    background: url(../images/phone_screen1.png) center no-repeat;
+    width: 444px;
+    height: 754px;
+    position: absolute;
+    top: 55px;
+    left: 20px;
+    opacity: 1;
+    z-index: 2;
+}
+
+#phone_screen2{
+    background: url(../images/phone_screen2.png) center no-repeat;
+    width: 444px;
+    height: 754px;
+    position: absolute;
+    top: 30px;
+    left: 27px;
+    opacity: 0;
+    z-index: 2;
+}
+
+#apple{
+    background: url(../images/apple.png) center no-repeat;
+    width: 230px;
+    height: 292px;
+    position: absolute;
+    top: 800px;
+    left: 695px;
+    opacity: 1;
+    z-index: 2;
+}
+
+#gl_logo{
+    background:url(../images/gl_logo.png) center no-repeat;
+    width: 297px;
+    height: 47px;
+    position: absolute;
+    top: 193px;
+    left: 80px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#lu_logo{
+    background:url(../images/lu_logo.png) center no-repeat;
+    width: 210px;
+    height: 197px;
+    position: absolute;
+    top: 101px;
+    left: 124px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt1_a{
+    background:url(../images/txt1_a.png) center no-repeat;
+    width: 274px;
+    height: 46px;
+    position: absolute;
+    top: 283px;
+    left: 90px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt1_b{
+    background:url(../images/txt1_b.png) center no-repeat;
+    width: 355px;
+    height: 46px;
+    position: absolute;
+    top: 333px;
+    left: 50px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt1_c{
+    background:url(../images/txt1_c.png) center no-repeat;
+    width: 398px;
+    height: 36px;
+    position: absolute;
+    top: 380px;
+    left: 29px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt2_a{
+    background:url(../images/txt2_a.png) center no-repeat;
+    width: 195px;
+    height: 36px;
+    position: absolute;
+    top: 320px;
+    left: 130px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt2_b{
+    background:url(../images/txt2_b.png) center no-repeat;
+    width: 223px;
+    height: 35px;
+    position: absolute;
+    top: 364px;
+    left: 115px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt2_c{
+    background:url(../images/txt2_c.png) center no-repeat;
+    width: 304px;
+    height: 46px;
+    position: absolute;
+    top: 408px;
+    left: 76px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#cta{
+    background: url(../images/cta.png) center no-repeat;
+    width: 229px;
+    height: 68px;
+    position: absolute;
+    top: 800px;
+    left: 115px;
+    opacity: 1;
+    z-index: 1;
+    transform: scale(1);
+    transform-origin: 0% 0%;
+}
+
+#coin1{
+    background: url(../images/coin1.png) center no-repeat;
+    width: 92px;
+    height: 93px;
+    position: absolute;
+    top: -120px;
+    left: 60px;
+    opacity: 1;
+    z-index: 3;
+}
+
+#coin2{
+    background: url(../images/coin2.png) center no-repeat;
+    width: 153px;
+    height: 115px;
+    position: absolute;
+    top: -200px;
+    left: 930px;
+    opacity: 1;
+    z-index: 3;
+}
+
+#coin3{
+    background: url(../images/coin3.png) center no-repeat;
+    width: 98px;
+    height: 88px;
+    position: absolute;
+    top: -300px;
+    left: 830px;
+    opacity: 1;
+    z-index: 3;
+}

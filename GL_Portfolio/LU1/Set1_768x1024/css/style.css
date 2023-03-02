@@ -1,0 +1,252 @@
+body {
+    margin: 0px;
+}
+
+/* ~ OVERALL BANNER SPECS ~ */
+
+#ad{
+    display: block;
+    border: rgb(145, 153, 153) 1px solid;
+    overflow: hidden;
+    width: 768px;
+    height: 1024px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-sizing:border-box;
+}
+
+/* Sizmek */
+
+#banner{
+    position: relative;
+    display: block;
+    width: 768px;
+    height: 1024px;
+    cursor: pointer;
+    background-color: #96d7ff;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* ~ LAYER PROPERTIES ~ */
+
+//#ref{
+    background:url(../images/ref.jpg) center no-repeat;
+    width: 768px;
+    height: 1024px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+#ground{
+    background-color: #00c9a7;
+    width: 768px;
+    height: 436px;
+    position: absolute;
+    top: 1500px;
+    left: 0px; 
+    opacity: 1;
+    z-index: 2;
+}
+
+#phone{
+    background: url(../images/phone.png) center no-repeat;
+    width: 439px;
+    height: 752px;
+    position: absolute;
+    top: 2000px;
+    left: 130px;
+    opacity: 1;
+    z-index: 2;
+}
+
+#phone_screen1{
+    background: url(../images/phone_screen1.png) center no-repeat;
+    width: 383px;
+    height: 651px;
+    position: absolute;
+    top: 46px;
+    left: 18px;
+    opacity: 1;
+    z-index: 2;
+}
+
+#phone_screen2{
+    background: url(../images/phone_screen2.png) center no-repeat;
+    width: 383px;
+    height: 651px;
+    position: absolute;
+    top: 27px;
+    left: 25px;
+    opacity: 0;
+    z-index: 2;
+}
+
+#apple{
+    background: url(../images/apple.png) center no-repeat;
+    width: 194px;
+    height: 246px;
+    position: absolute;
+    top: 2000px;
+    left: 405px;
+    opacity: 1;
+    z-index: 2;
+}
+
+#gl_logo{
+    background:url(../images/gl_logo.png) center no-repeat;
+    width: 229px;
+    height: 34px;
+    position: absolute;
+    top: 119px;
+    left: 70px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#lu_logo{
+    background:url(../images/lu_logo.png) center no-repeat;
+    width: 210px;
+    height: 197px;
+    position: absolute;
+    top: 160px;
+    left: 80px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt1_a{
+    background:url(../images/txt1_a.png) center no-repeat;
+    width: 243px;
+    height: 40px;
+    position: absolute;
+    top: 117px;
+    left: 345px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt1_b{
+    background:url(../images/txt1_b.png) center no-repeat;
+    width: 314px;
+    height: 41px;
+    position: absolute;
+    top: 162px;
+    left: 345px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt1_c{
+    background:url(../images/txt1_c.png) center no-repeat;
+    width: 353px;
+    height: 31px;
+    position: absolute;
+    top: 208px;
+    left: 345px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt2_a{
+    background:url(../images/txt2_a.png) center no-repeat;
+    width: 172px;
+    height: 31px;
+    position: absolute;
+    top: 111px;
+    left: 345px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt2_b{
+    background:url(../images/txt2_b.png) center no-repeat;
+    width: 198px;
+    height: 32px;
+    position: absolute;
+    top: 155px;
+    left: 345px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt2_c{
+    background:url(../images/txt2_c.png) center no-repeat;
+    width: 269px;
+    height: 41px;
+    position: absolute;
+    top: 203px;
+    left: 348px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#cta{
+    background: url(../images/cta.png) center no-repeat;
+    width: 354px;
+    height: 65px;
+    position: absolute;
+    top: 700px;
+    left: 345px;
+    opacity: 0;
+    z-index: 1;
+    transform: scale(1);
+    transform-origin: 0% 0%;
+}
+
+#coin1{
+    background: url(../images/coin1.png) center no-repeat;
+    width: 132px;
+    height: 125px;
+    position: absolute;
+    top: -600px;
+    left: 600px;
+    opacity: 1;
+    z-index: 3;
+}
+
+#coin2{
+    background: url(../images/coin2.png) center no-repeat;
+    width: 84px;
+    height: 101px;
+    position: absolute;
+    top: -600px;
+    left: 65px;
+    opacity: 1;
+    z-index: 3;
+}
+
+#coin3{
+    background: url(../images/coin3.png) center no-repeat;
+    width: 98px;
+    height: 89px;
+    position: absolute;
+    top: -600px;
+    left: 570px;
+    opacity: 1;
+    z-index: 3;
+}
+
