@@ -1,0 +1,187 @@
+body {
+    margin: 0px;
+}
+
+/* ~ OVERALL BANNER SPECS ~ */
+
+#ad{
+    display: block;
+    border: rgb(145, 153, 153) 1px solid;
+    overflow: hidden;
+    width: 300px;
+    height: 600px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-sizing:border-box;
+}
+
+#banner{
+    position: relative;
+    display: block;
+    width: 300px;
+    height: 600px;
+    cursor: pointer;
+    background-color: #96d7ff;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* ~ LAYER PROPERTIES ~ */
+
+//#ref{
+    background:url(../images/backup.jpg) center no-repeat;
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+#gradient{
+    background: url(../images/gradient.jpg) center no-repeat;
+    width: 600px;
+    height: 1200px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
+
+#gl_logo{
+    background:url(../images/gl_logo.png) center no-repeat;
+    width: 315px;
+    height: 48px;
+    position: absolute;
+    top: 46px;
+    left: -59px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt1_a{
+    background:url(../images/txt1_a.png) center no-repeat;
+    width: 409px;
+    height: 46px;
+    position: absolute;
+    top: 100px;
+    left: -300px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
+
+#txt1_b{
+    background:url(../images/txt1_b.png) center no-repeat;
+    width: 436px;
+    height: 56px;
+    position: absolute;
+    top: 130px;
+    left: -300px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
+
+#txt1_c{
+    background:url(../images/txt1_c.png) center no-repeat;
+    width: 519px;
+    height: 47px;
+    position: absolute;
+    top: 160px;
+    left: -300px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
+
+#cta{
+    background: url(../images/cta.png) center no-repeat;
+    width: 341px;
+    height: 96px;
+    position: absolute;
+    top: 200px;
+    left: -200px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
+
+#child{
+    background: url(../images/child.png) center no-repeat;
+    width: 326px;
+    height: 327px;
+    position: absolute;
+    top: 500px;
+    left: 260px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(1);
+    transform-origin: 0% 0%;
+}
+
+#card_shell{
+    background: url(../images/card_shell.png) center no-repeat;
+    width: 367px;
+    height: 506px;
+    position: absolute;
+    top: 164px;
+    left: 35px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#card_overlay{
+    background: url(../images/card_overlay.png) center no-repeat;
+    width: 600px;
+    height: 1200px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    z-index: 2;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
+
+#milestone1{
+    background: url(../images/milestone1.png) center no-repeat;
+    width: 301px;
+    height: 157px;
+    position: absolute;
+    top: 372px;
+    left: -62px;
+    opacity: 1;
+    z-index: 2;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#milestone2{
+    background: url(../images/milestone2.png) center no-repeat;
+    width: 294px;
+    height: 154px;
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    opacity: 0;
+    z-index: 2;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
