@@ -1,0 +1,220 @@
+body {
+    margin: 0px;
+}
+
+/* ~ OVERALL BANNER SPECS ~ */
+
+#container{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:300px;
+    height:250px;
+    border:1px solid black;
+    background-color: #002d72;
+    box-sizing: border-box;
+    overflow:hidden;
+    opacity:1;
+    z-index:1;
+}
+
+/* ~ LAYER PROPERTIES ~ */
+
+//#ref{
+    background:url(ref.jpg) center no-repeat;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#border{
+    background:url(border.png) center no-repeat;
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    opacity: 1;
+    z-index: 6;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
+
+/* ~ SCENE 01 ~ */
+
+#tangle{
+    background:url(tangle.svg) center no-repeat;
+    width: 279px;
+    height: 1965px;
+    position: absolute;
+    top:3px;
+    left: 0px;
+    opacity: 1;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 55% 0%;
+}
+
+#txt1_a{
+    background:url(txt1_a.svg) center no-repeat;
+    width: 489px;
+    height: 44px;
+    position: absolute;
+    top: 800px;
+    left: -98px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt1_b{
+    background:url(txt1_b.svg) center no-repeat;
+    width: 360px;
+    height: 44px;
+    position: absolute;
+    top: 860px;
+    left: -32px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+/* ~ SCENE 02 ~ */
+
+#txt2{
+    background:url(txt2.svg) center no-repeat;
+    width: 444px;
+    height: 41px;
+    position: absolute;
+    top: 1665px;
+    left: -70px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+/* ~ SCENE 03 ~ */
+
+#text03_wrapper{
+    background: none;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    opacity: 1;
+    z-index: 4;
+}
+
+#txt3_a{
+    background:url(txt3_a.svg) center no-repeat;
+    width: 264px;
+    height: 26px;
+    position: absolute;
+    top: 70px;
+    left: 16px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt3_b{
+    background:url(txt3_b.svg) center no-repeat;
+    width: 317px;
+    height: 26px;
+    position: absolute;
+    top: 96px;
+    left: -10px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt3_c{
+    background:url(txt3_c.svg) center no-repeat;
+    width: 344px;
+    height: 38px;
+    position: absolute;
+    top: 120px;
+    left: -24px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt3_d{
+    background:url(txt3_d.svg) center no-repeat;
+    width: 238px;
+    height: 38px;
+    position: absolute;
+    top: 149px;
+    left: 30px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt4{
+    background:url(txt4.svg) center no-repeat;
+    width: 444px;
+    height: 27px;
+    position: absolute;
+    top: 152px;
+    left: -73px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+/* ~ SCENE 03 ~ */
+
+#logo_symbol{
+    background:url(logo_symbol.png) center no-repeat;
+    width: 210px;
+    height: 332px;
+    position: absolute;
+    top: -42px;
+    left: 44px;
+    opacity: 1;
+    z-index: 1;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#cta{
+    background:url(cta.svg) center no-repeat;
+    width: 178px;
+    height: 44px;
+    position: absolute;
+    top: 198px;
+    left: -18px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#logo_main{
+    background: url(logo_main.png) center no-repeat;
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
