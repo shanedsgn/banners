@@ -1,0 +1,245 @@
+body {
+    margin: 0px;
+}
+
+/* ~ OVERALL BANNER SPECS ~ */
+
+#container{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:320px;
+    height:50px;
+    border:1px solid black;
+    background-color: #002d72;
+    box-sizing: border-box;
+    overflow:hidden;
+    opacity:1;
+    z-index:1;
+}
+
+/* ~ LAYER PROPERTIES ~ */
+
+//#ref{
+    background:url(backup.jpg) center no-repeat;
+    width: 320px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#border{
+    background:url(border.png) center no-repeat;
+    width: 640px;
+    height: 100px;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    opacity: 1;
+    z-index: 6;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
+
+/* ~ SCENE 01 ~ */
+
+#text01_wrapper{
+    background: none;
+    width: 320px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    opacity: 1;
+    z-index: 1;
+}
+
+#txt1_a{
+    background:url(txt1_a.svg) center no-repeat;
+    width: 189px;
+    height: 35px;
+    position: absolute;
+    top: -150px;
+    left: -29px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#txt1_b{
+    background:url(txt1_b.svg) center no-repeat;
+    width: 36px;
+    height: 23px;
+    position: absolute;
+    top: -150px;
+    left: 110px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#txt1_c{
+    background:url(txt1_c.svg) center no-repeat;
+    width: 156px;
+    height: 28px;
+    position: absolute;
+    top: -150px;
+    left: 104px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+/* ~ SCENE 01 - CB ~ */
+
+#cb_wrapper{
+    background: none;
+    width: 320px;
+    height: 50px;
+    position: absolute;
+    top: -61px;
+    left: 145px; 
+    opacity: 1;
+    z-index: 1;
+    transform: scale(0.55);
+}
+
+/* ~ SCENE 01 - CB01 ~ */
+
+#cb_check_01{
+    background:url(cb_check.svg) center no-repeat;
+    width: 30px;
+    height: 28px;
+    position: absolute;
+    top: 120px;
+    left: 68px;
+    opacity: 1;
+    z-index: 5;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#cb_circle{
+    background:url(cb_circle.svg) center no-repeat;
+    width: 115px;
+    height: 115px;
+    position: absolute;
+    top: 78px;
+    left: 25px;
+    opacity: 0;
+    z-index: 5;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+/* ~ SCENE 02 ~ */
+
+#text02_wrapper{
+    background: none;
+    width: 320px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    opacity: 1;
+    z-index: 4;
+}
+
+#txt2_a{
+    background:url(txt2_a.svg) center no-repeat;
+    width: 54px;
+    height: 21px;
+    position: absolute;
+    top: 13px;
+    left: 2px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt2_b{
+    background:url(txt2_b.svg) center no-repeat;
+    width: 162px;
+    height: 21px;
+    position: absolute;
+    top: -100px;
+    left: 7px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#txt2_c{
+    background:url(txt2_c.svg) center no-repeat;
+    width: 152px;
+    height: 21px;
+    position: absolute;
+    top: -100px;
+    left: 96px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#txt2_d{
+    background:url(txt2_d.svg) center no-repeat;
+    width: 180px;
+    height: 26px;
+    position: absolute;
+    top: -100px;
+    left: 170px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#txt3{
+    background:url(txt3.svg) center no-repeat;
+    width: 218px;
+    height: 58px;
+    position: absolute;
+    top: -5px;
+    left: -38px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+/* ~ SCENE 03 ~ */
+
+#cta{
+    background:url(cta.svg) center no-repeat;
+    width: 125px;
+    height: 28px;
+    position: absolute;
+    top: 11px;
+    left: 134px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#logo_main{
+    background: url(logo_main.svg) center no-repeat;
+    width: 146px;
+    height: 32px;
+    position: absolute;
+    top: 17px;
+    left: 237px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
