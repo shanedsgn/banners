@@ -1,0 +1,268 @@
+body {
+    margin: 0px;
+}
+
+/* ~ OVERALL BANNER SPECS ~ */
+
+#container{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:300px;
+    height:250px;
+    border:1px solid black;
+    background-color: #002d72;
+    box-sizing: border-box;
+    overflow:hidden;
+    opacity:1;
+    z-index:1;
+}
+
+/* ~ LAYER PROPERTIES ~ */
+
+//#ref{
+    background:url(backup.jpg) center no-repeat;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#border{
+    background:url(border.png) center no-repeat;
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    opacity: 1;
+    z-index: 1;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
+
+/* ~ SCENE 01 ~ */
+
+#txt1{
+    background:url(txt1.png) center no-repeat;
+    width: 494px;
+    height: 44px;
+    position: absolute;
+    top: 158px;
+    left: -97px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#icon01{
+    background:url(icon01.png) center no-repeat;
+    width: 172px;
+    height: 172px;
+    position: absolute;
+    top: 5px;
+    left: 63px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#icon02{
+    background:url(icon02.png) center no-repeat;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top: 8px;
+    left: 64px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#icon03{
+    background:url(icon03.png) center no-repeat;
+    width: 102px;
+    height: 172px;
+    position: absolute;
+    top: 5px;
+    left: 99px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#icon04{
+    background:url(icon04.png) center no-repeat;
+    width: 188px;
+    height: 174px;
+    position: absolute;
+    top: 5px;
+    left: 56px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+/* ~ SCENE 02 ~ */
+
+#primrose_wrapper{
+    background: none;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    opacity: 0;
+    z-index: 1;
+}
+
+#primrose{
+    background:url(primrose.jpg) center no-repeat;
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: -125px;
+    left: -150px;
+    opacity: 1;
+    z-index: 0;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#txt2_a{
+    background:url(txt2_a.png) center no-repeat;
+    width: 320px;
+    height: 41px;
+    position: absolute;
+    top: 161px;
+    left: -13px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt2_b{
+    background:url(txt2_b.png) center no-repeat;
+    width: 426px;
+    height: 48px;
+    position: absolute;
+    top: 188px;
+    left: -62px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+/* ~ SCENE 03 ~ */
+
+#text03_wrapper{
+    background: none;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: -44px;
+    left: 0px; 
+    opacity: 1;
+    z-index: 1;
+}
+
+#txt3_a{
+    background:url(txt3_a.png) center no-repeat;
+    width: 163px;
+    height: 48px;
+    position: absolute;
+    top: 110px;
+    left: 69px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt3_b{
+    background:url(txt3_b.png) center no-repeat;
+    width: 336px;
+    height: 39px;
+    position: absolute;
+    top: 141px;
+    left: -18px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt3_c{
+    background:url(txt3_c.png) center no-repeat;
+    width: 200px;
+    height: 39px;
+    position: absolute;
+    top: 169px;
+    left: 50px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt3_d{
+    background:url(txt3_d.png) center no-repeat;
+    width: 439px;
+    height: 27px;
+    position: absolute;
+    top: 208px;
+    left: -70px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#logo_symbol{
+    background:url(logo_symbol.png) center no-repeat;
+    width: 248px;
+    height: 390px;
+    position: absolute;
+    top: -70px;
+    left: 25px;
+    opacity: 1;
+    z-index: 1;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#cta{
+    background:url(cta.png) center no-repeat;
+    width: 190px;
+    height: 44px;
+    position: absolute;
+    top: 196px;
+    left: -25px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#logo_main{
+    background: url(logo_main.png) center no-repeat;
+    width: 216px;
+    height: 49px;
+    position: absolute;
+    top: 204px;
+    left: 168px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
