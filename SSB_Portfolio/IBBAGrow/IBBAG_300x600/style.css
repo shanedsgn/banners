@@ -1,0 +1,331 @@
+body {
+    margin: 0px;
+}
+
+/* ~ OVERALL BANNER SPECS ~ */
+
+#container{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:300px;
+    height:600px;
+    border:1px solid black;
+    background-color: #002d72;
+    box-sizing: border-box;
+    overflow:hidden;
+    opacity:1;
+    z-index:1;
+}
+
+/* ~ LAYER PROPERTIES ~ */
+
+//#ref{
+    background:url(backup.jpg) center no-repeat;
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#border{
+    background:url(border.png) center no-repeat;
+    width: 600px;
+    height: 1200px;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    opacity: 1;
+    z-index: 5;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
+
+/* ~ SCENE 01 ~ */
+
+#text01_wrapper{
+    background: none;
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    opacity: 1;
+    z-index: 1;
+}
+
+#txt1_a{
+    background:url(txt1_a.svg) center no-repeat;
+    width: 336px;
+    height: 39px;
+    position: absolute;
+    top: 235px;
+    left: -300px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#txt1_b{
+    background:url(txt1_b.svg) center no-repeat;
+    width: 256px;
+    height: 46px;
+    position: absolute;
+    top: 271px;
+    left: -300px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#txt1_c{
+    background:url(txt1_c.svg) center no-repeat;
+    width: 263px;
+    height: 48px;
+    position: absolute;
+    top: 308px;
+    left: -300px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#txt1_d{
+    background:url(txt1_d.svg) center no-repeat;
+    width: 331px;
+    height: 73px;
+    position: absolute;
+    top: 348px;
+    left: -13px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#grow_wrapper{
+    background: none;
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    top: -28px;
+    left: -47px; 
+    opacity: 1;
+    z-index: 4;
+}
+
+#grow_01{
+    background:url(grow01.svg) center no-repeat;
+    width: 103px;
+    height: 30px;
+    position: absolute;
+    top: 170px;
+    left: 163px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#grow_02{
+    background:url(grow02.svg) center no-repeat;
+    width: 253px;
+    height: 142px;
+    position: absolute;
+    top: 200px;
+    left: 72px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#plant_01a{
+    background:url(plant01a.svg) center no-repeat;
+    width: 5px;
+    height: 93px;
+    position: absolute;
+    top: 130px;
+    left: 212px;
+    opacity: 0;
+    z-index: 3;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#plant_01aa{
+    background:url(plant01aa.svg) center no-repeat;
+    width: 29px;
+    height: 47px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    opacity: 0;
+    z-index: 3;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#plant_01b{
+    background:url(plant01b.svg) center no-repeat;
+    width: 33px;
+    height: 54px;
+    position: absolute;
+    top: 150px;
+    left: 190px;
+    opacity: 0;
+    z-index: 3;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#plant_01bb{
+    background:url(plant01bb.svg) center no-repeat;
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    top: 125px;
+    left: 190px;
+    opacity: 0;
+    z-index: 3;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#plant_01c{
+    background:url(plant01c.svg) center no-repeat;
+    width: 33px;
+    height: 54px;
+    position: absolute;
+    top: 145px;
+    left: 200px;
+    opacity: 0;
+    z-index: 3;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#plant_01cc{
+    background:url(plant01cc.svg) center no-repeat;
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    top: 135px;
+    left: 195px;
+    opacity: 0;
+    z-index: 3;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+/* ~ SCENE 02 ~ */
+
+#text02_wrapper{
+    background: none;
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    opacity: 1;
+    z-index: 4;
+}
+
+#txt2_a{
+    background:url(txt2_a.svg) center no-repeat;
+    width: 325px;
+    height: 49px;
+    position: absolute;
+    top: 116px;
+    left: -14px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt2_b{
+    background:url(txt2_b.svg) center no-repeat;
+    width: 426px;
+    height: 49px;
+    position: absolute;
+    top: 160px;
+    left: -64px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt2_c{
+    background:url(txt2_c.svg) center no-repeat;
+    width: 277px;
+    height: 60px;
+    position: absolute;
+    top: 202px;
+    left: 10px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt3{
+    background:url(txt3.svg) center no-repeat;
+    width: 251px;
+    height: 88px;
+    position: absolute;
+    top: 250px;
+    left: 23px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+/* ~ SCENE 03 ~ */
+
+#logo_symbol{
+    background:url(logo_symbol.png) center no-repeat;
+    width: 248px;
+    height: 390px;
+    position: absolute;
+    top: 10px;
+    left: 22px;
+    opacity: 1;
+    z-index: 1;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#cta{
+    background:url(cta.svg) center no-repeat;
+    width: 247px;
+    height: 56px;
+    position: absolute;
+    top: 374px;
+    left: 27px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#logo_main{
+    background: url(logo_main.png) center no-repeat;
+    width: 368px;
+    height: 80px;
+    position: absolute;
+    top: 529px;
+    left: 60px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
