@@ -1,0 +1,321 @@
+body {
+    margin: 0px;
+}
+
+/* ~ OVERALL BANNER SPECS ~ */
+
+#container{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:728px;
+    height:90px;
+    border:1px solid black;
+    background-color: #002d72;
+    box-sizing: border-box;
+    overflow:hidden;
+    opacity:1;
+    z-index:1;
+}
+
+/* ~ LAYER PROPERTIES ~ */
+
+//#ref{
+    background:url(backup.jpg) center no-repeat;
+    width: 728px;
+    height: 90px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#border{
+    background:url(border.png) center no-repeat;
+    width: 1456px;
+    height: 180px;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    opacity: 1;
+    z-index: 1;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
+
+/* ~ SCENE 01 ~ */
+
+#txt1{
+    background:url(txt1.png) center no-repeat;
+    width: 691px;
+    height: 61px;
+    position: absolute;
+    top: 14px;
+    left: -4px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#icon01{
+    background:url(icon01.png) center no-repeat;
+    width: 114px;
+    height: 114px;
+    position: absolute;
+    top: -12px;
+    left: 32px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#icon02{
+    background:url(icon02.png) center no-repeat;
+    width: 122px;
+    height: 122px;
+    position: absolute;
+    top: -17px;
+    left: 31px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#icon03{
+    background:url(icon03.png) center no-repeat;
+    width: 188px;
+    height: 104px;
+    position: absolute;
+    top: -8px;
+    left: -10px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#icon04{
+    background:url(icon04.png) center no-repeat;
+    width: 134px;
+    height: 126px;
+    position: absolute;
+    top: -19px;
+    left: 22px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+/* ~ SCENE 02 ~ */
+
+#primrose_wrapper{
+    background: none;
+    width: 152px;
+    height: 90px;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    opacity: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#primrose{
+    background:url(primrose.jpg) center no-repeat;
+    width: 370px;
+    height: 247px;
+    position: absolute;
+    top: -65px;
+    left: -110px;
+    opacity: 1;
+    z-index: 0;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#txt2_a{
+    background:url(txt2_a.png) center no-repeat;
+    width: 162px;
+    height: 42px;
+    position: absolute;
+    top: 23px;
+    left: 127px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt2_b{
+    background:url(txt2_b.png) center no-repeat;
+    width: 125px;
+    height: 48px;
+    position: absolute;
+    top: 18px;
+    left: 229px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt2_c{
+    background:url(txt2_c.png) center no-repeat;
+    width: 81px;
+    height: 49px;
+    position: absolute;
+    top: 18px;
+    left: 313px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt2_d{
+    background:url(txt2_d.png) center no-repeat;
+    width: 95px;
+    height: 48px;
+    position: absolute;
+    top: 18px;
+    left: 359px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt2_e{
+    background:url(txt2_e.png) center no-repeat;
+    width: 231px;
+    height: 60px;
+    position: absolute;
+    top: 15px;
+    left: 385px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt2_f{
+    background:url(txt2_f.png) center no-repeat;
+    width: 176px;
+    height: 33px;
+    position: absolute;
+    top: 29px;
+    left: 524px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+/* ~ SCENE 03 ~ */
+
+#text03_wrapper{
+    background: none;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: -44px;
+    left: 0px; 
+    opacity: 1;
+    z-index: 1;
+}
+
+#txt3_a{
+    background:url(txt3_a.png) center no-repeat;
+    width: 163px;
+    height: 48px;
+    position: absolute;
+    top: 53px;
+    left: -5px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt3_b{
+    background:url(txt3_b.png) center no-repeat;
+    width: 104px;
+    height: 35px;
+    position: absolute;
+    top: 58px;
+    left: 98px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt3_c{
+    background:url(txt3_c.png) center no-repeat;
+    width: 215px;
+    height: 39px;
+    position: absolute;
+    top: 55px;
+    left: 132px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt3_d{
+    background:url(txt3_d.png) center no-repeat;
+    width: 215px;
+    height: 39px;
+    position: absolute;
+    top: 55px;
+    left: 245px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt4{
+    background:url(txt4.png) center no-repeat;
+    width: 518px;
+    height: 31px;
+    position: absolute;
+    top: 44px;
+    left: -95px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#cta{
+    background:url(cta.png) center no-repeat;
+    width: 230px;
+    height: 54px;
+    position: absolute;
+    top: 20px;
+    left: 382px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#logo_main{
+    background: url(logo_main.png) center no-repeat;
+    width: 250px;
+    height: 57px;
+    position: absolute;
+    top: 33px;
+    left: 576px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
