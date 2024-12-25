@@ -1,0 +1,345 @@
+body {
+    margin: 0px;
+}
+
+/* ~ OVERALL BANNER SPECS ~ */
+
+#container{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:160px;
+    height:600px;
+    border:1px solid black;
+    background-color: #002d72;
+    box-sizing: border-box;
+    overflow:hidden;
+    opacity:1;
+    z-index:1;
+}
+
+/* ~ LAYER PROPERTIES ~ */
+
+//#ref{
+    background:url(backup.jpg) center no-repeat;
+    width: 160px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#border{
+    background:url(border.png) center no-repeat;
+    width: 320px;
+    height: 1200px;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    opacity: 1;
+    z-index: 6;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
+
+/* ~ SCENE 01 ~ */
+
+#text01_wrapper{
+    background: none;
+    width: 160px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    opacity: 1;
+    z-index: 1;
+}
+
+#txt1_a{
+    background:url(txt1_a.svg) center no-repeat;
+    width: 239px;
+    height: 28px;
+    position: absolute;
+    top: 212px;
+    left: -300px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#txt1_b{
+    background:url(txt1_b.svg) center no-repeat;
+    width: 182px;
+    height: 33px;
+    position: absolute;
+    top: 238px;
+    left: -300px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#txt1_c{
+    background:url(txt1_c.svg) center no-repeat;
+    width: 187px;
+    height: 34px;
+    position: absolute;
+    top: 264px;
+    left: -300px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#txt1_d{
+    background:url(txt1_d.svg) center no-repeat;
+    width: 236px;
+    height: 52px;
+    position: absolute;
+    top: 292px;
+    left: -36px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#grow_wrapper{
+    background: none;
+    width: 160px;
+    height: 600px;
+    position: absolute;
+    top: -46px;
+    left: -99px; 
+    opacity: 1;
+    z-index: 4;
+    transform: scale(0.85);
+}
+
+#grow_01{
+    background:url(grow01.svg) center no-repeat;
+    width: 103px;
+    height: 30px;
+    position: absolute;
+    top: 170px;
+    left: 163px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#grow_02{
+    background:url(grow02.svg) center no-repeat;
+    width: 253px;
+    height: 142px;
+    position: absolute;
+    top: 190px;
+    left: 72px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#plant_01a{
+    background:url(plant01a.svg) center no-repeat;
+    width: 5px;
+    height: 93px;
+    position: absolute;
+    top: 130px;
+    left: 212px;
+    opacity: 0;
+    z-index: 3;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#plant_01aa{
+    background:url(plant01aa.svg) center no-repeat;
+    width: 29px;
+    height: 47px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    opacity: 0;
+    z-index: 3;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#plant_01b{
+    background:url(plant01b.svg) center no-repeat;
+    width: 33px;
+    height: 54px;
+    position: absolute;
+    top: 150px;
+    left: 190px;
+    opacity: 0;
+    z-index: 3;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#plant_01bb{
+    background:url(plant01bb.svg) center no-repeat;
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    top: 125px;
+    left: 190px;
+    opacity: 0;
+    z-index: 3;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#plant_01c{
+    background:url(plant01c.svg) center no-repeat;
+    width: 33px;
+    height: 54px;
+    position: absolute;
+    top: 145px;
+    left: 200px;
+    opacity: 0;
+    z-index: 3;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+#plant_01cc{
+    background:url(plant01cc.svg) center no-repeat;
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    top: 135px;
+    left: 195px;
+    opacity: 0;
+    z-index: 3;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+/* ~ SCENE 02 ~ */
+
+#text02_wrapper{
+    background: none;
+    width: 160px;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    opacity: 1;
+    z-index: 4;
+}
+
+#txt2_a{
+    background:url(txt2_a.svg) center no-repeat;
+    width: 236px;
+    height: 35px;
+    position: absolute;
+    top: 129px;
+    left: -38px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt2_b{
+    background:url(txt2_b.svg) center no-repeat;
+    width: 111px;
+    height: 35px;
+    position: absolute;
+    top: 159px;
+    left: 24px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt2_c{
+    background:url(txt2_c.svg) center no-repeat;
+    width: 178px;
+    height: 35px;
+    position: absolute;
+    top: 189px;
+    left: -8px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt2_d{
+    background:url(txt2_d.svg) center no-repeat;
+    width: 202px;
+    height: 44px;
+    position: absolute;
+    top: 216px;
+    left: -20px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#txt3{
+    background:url(txt3.svg) center no-repeat;
+    width: 190px;
+    height: 66px;
+    position: absolute;
+    top: 255px;
+    left: -15px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 50% 50%;
+}
+
+/* ~ SCENE 03 ~ */
+
+#logo_symbol{
+    background:url(logo_symbol.png) center no-repeat;
+    width: 212px;
+    height: 334px;
+    position: absolute;
+    top: 34px;
+    left: -25px;
+    opacity: 1;
+    z-index: 1;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#cta{
+    background:url(cta.svg) center no-repeat;
+    width: 205px;
+    height: 46px;
+    position: absolute;
+    top: 357px;
+    left: -22px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0);
+    transform-origin: 50% 50%;
+}
+
+#logo_main{
+    background: url(logo_main.png) center no-repeat;
+    width: 252px;
+    height: 54px;
+    position: absolute;
+    top: 544px;
+    left: 17px;
+    opacity: 0;
+    z-index: 4;
+    transform: scale(0.5);
+    transform-origin: 0% 0%;
+}
